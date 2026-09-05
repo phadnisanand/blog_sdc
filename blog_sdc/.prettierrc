@@ -1,0 +1,17 @@
+{
+  "plugins": ["prettier-plugin-tailwindcss", "@ttskch/prettier-plugin-tailwindcss-anywhere"],
+  "overrides": [
+    {
+      "files": ["*.twig", "*.html.twig"],
+      "options": {
+        "parser": "anywhere",
+        "regex": "(?:class(?:Name)?|addClass)\\\\\\\\s*(?:[=:]|\\\\\\\\()\\\\\\\\s*[\\\\"']([^\\\\"'{}~]*)"
+      }
+    }
+  ],
+  "printWidth": 100,
+  "semi": true,
+  "singleQuote": true,
+  "tabWidth": 2,
+  "trailingComma": "es5"
+}

@@ -1,0 +1,22 @@
+'$schema': 'https://git.drupalcode.org/project/drupal/-/raw/10.1.x/core/modules/sdc/src/metadata.schema.json'
+name: Card Component
+status: stable
+description: A reusable card component
+props:
+  type: object
+  properties:
+    title:
+      type: string
+      title: Card Title
+    content:
+      type: string
+      title: Card Content
+    image:
+      type: string
+      title: Card Image
+    tags:
+      type: string
+      title: Card Tags
+    url:
+      type: string
+      title: Card URL

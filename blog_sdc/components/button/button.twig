@@ -1,0 +1,9 @@
+{% set classes = {
+  primary: 'px-4 py-2 bg-blue-600 text-white rounded',
+  secondary: 'px-4 py-2 bg-gray-600 text-white rounded',
+  danger: 'px-4 py-2 bg-red-600 text-white rounded'
+} %}
+
+<button {{ attributes.addClass(classes[variant]) }}>
+  {{ label }}
+</button>

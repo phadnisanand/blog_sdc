@@ -1,0 +1,15 @@
+# Vite-built assets with Tailwind CSS
+vite-main:
+  css:
+    theme:
+      dist/main-FhJJ8jti.css: {}  # Replace with your actual hash
+  js:
+    dist/main-g1DBHz6N.js: {}     # Replace with your actual hash
+  dependencies:
+    - core/drupal
+
+# Legacy theme library (if it exists)
+global:
+  css:
+    theme:
+      css/style.css: {}
